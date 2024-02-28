@@ -1,6 +1,7 @@
-hosts:
-  so2raila:
-    ansible_host: 150.40.139.130
-  so2railb:
-    ansible_host: 150.40.139.131
+all:
+  hosts:
+    so2raila:
+      ansible_host: 150.40.139.130
+    so2railb:
+      ansible_host: 150.40.139.131
         
