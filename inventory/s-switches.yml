@@ -1,0 +1,19 @@
+s-switches:
+  hosts:
+    s14:
+      ansible_host: 10.16.44.33
+    s12:
+      ansible_host: 10.16.44.34
+    s27:
+      ansible_host: 10.16.44.36
+    01s51:
+      ansible_host: 10.16.44.55
+    s11:
+      ansible_host: 10.16.44.32
+    s13:
+      ansible_host: 10.16.44.35
+    s21:
+      ansible_host: 10.16.44.49
+    co54s54:
+      ansible_host: 10.16.44.99
+        
