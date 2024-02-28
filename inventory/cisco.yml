@@ -1,4 +1,4 @@
-cisco:
+all:
   hosts:
     so2raila:
       ansible_host: 150.40.139.130
