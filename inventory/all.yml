@@ -4,7 +4,10 @@ so2-rail:
       ansible_host: 150.40.139.130
     so2railb:
       ansible_host: 150.40.139.131
-        
+  vars:
+    ansible_become: yes
+    ansible_become_method: enable
+    ansible_network_os: cisco.ios.ios        
 s-switches:
   hosts:
     s14:
@@ -23,7 +26,10 @@ s-switches:
       ansible_host: 10.16.44.49
     co54s54:
       ansible_host: 10.16.44.99
-        
+  vars:
+    ansible_become: yes
+    ansible_become_method: enable
+    ansible_network_os: cisco.ios.ios        
 cisco:
   hosts:
     so2raila:
@@ -46,4 +52,8 @@ cisco:
       ansible_host: 10.16.44.49
     co54s54:
       ansible_host: 10.16.44.99
-        
+  vars:
+    ansible_become: yes
+    ansible_become_method: enable
+    ansible_network_os: cisco.ios.ios
+
