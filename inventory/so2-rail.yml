@@ -6,4 +6,8 @@ all:
       ansible_host: 150.40.139.131
     so3railb:
       ansible_host: 150.40.139.132
+  vars:
+    ansible_become: yes
+    ansible_become_method: enable
+    ansible_network_os: cisco.ios.ios
         
