@@ -1,0 +1,10 @@
+---
+collections:
+  - name: cisco.dnac
+  - name: servicenow.servicenow
+  - name: ansible.netcommon
+  - name: cisco.iosxr
+  - name: cisco.ios
+  - name: cisco.nxos
+  - name: paloaltonetworks.panos
+  - name: f5networks.f5_modules
